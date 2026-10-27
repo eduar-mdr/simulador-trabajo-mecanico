@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "simulador-trabajo-mecanico",
+    "name": "Simulador Trabajo Mecánico",
     "slug": "simulador-trabajo-mecanico",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,10 +20,15 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.emedrano.simuladortrabajomecanico",
+      "userInterfaceStyle": "automatic"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
